@@ -1,0 +1,38 @@
+================================================================================================
+***********1st***********
+Location Debug
+export TF_LOG=DEBUG
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_debug\tfdebuglogs"
+================================================================================================
+***********2nd***********
+Location Error
+export TF_LOG=ERROR
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_error"
+================================================================================================
+***********3rd***********
+Location info
+export TF_LOG=INFO
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_info\tfinfologs.txt"
+set TF_LOG=INFO
+set TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_info\tfinfologs.txt"
+================================================================================================
+***********4th***********
+Location info
+export TF_LOG=OFF
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_off"
+================================================================================================
+***********5th***********
+Location info
+export TF_LOG=TRACE
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_trace"
+================================================================================================
+***********6th***********
+Location info
+export TF_LOG=WARN
+export TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_warn"
+================================================================================================
+
+
+
+****$env:TF_LOG="TRACE"$env:TF_LOG_PATH="D:\OnlyCoding\Terraform\devops-directive-terraform-course\02-overview\all_tf_logs\tf_info\tfinfonewlogs.txt"*****
+****OLDPWD=/d/OnlyCoding/Terraform/devops-directive-terraform-course/02-overview/all_tf_logs****
